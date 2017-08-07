@@ -32,7 +32,6 @@ public final class DummyTask implements Task {
 
   @Override
   public final byte[] call(final byte[] memento) {
-    // TODO: print a message.
-    return null;
+    return new byte[0];
   }
 }

@@ -129,8 +129,7 @@ public class REEFYarnNodeLabelTestDriver {
           .build();;
 
       allocatedEvaluator.submitTask(taskConfiguration);
-
-      allocatedEvaluator.close();
+      
     }
   }
 }
