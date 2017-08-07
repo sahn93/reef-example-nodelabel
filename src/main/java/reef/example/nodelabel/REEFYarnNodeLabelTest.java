@@ -40,7 +40,7 @@ public class REEFYarnNodeLabelTest {
   /**
    * Number of milliseconds to wait for the job to complete.
    */
-  private static final int JOB_TIMEOUT = 10000; // 10 sec.
+  private static final int JOB_TIMEOUT = 100000; // 100 sec.
 
   /**
    * Empty private constructor to prohibit instantiation

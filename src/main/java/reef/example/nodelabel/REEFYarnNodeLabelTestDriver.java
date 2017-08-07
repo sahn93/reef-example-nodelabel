@@ -80,7 +80,7 @@ public class REEFYarnNodeLabelTestDriver {
           .setMemory(500)
           .setNumberOfCores(1)
           .build();
-      LOG.log(Level.INFO, "Requested Evaluator with node label: " + REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
+      LOG.log(Level.INFO, "Requested Evaluator without node label");
       REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToDefault);
     }
   }
@@ -129,7 +129,7 @@ public class REEFYarnNodeLabelTestDriver {
           .build();;
 
       allocatedEvaluator.submitTask(taskConfiguration);
-      
+
     }
   }
 }
