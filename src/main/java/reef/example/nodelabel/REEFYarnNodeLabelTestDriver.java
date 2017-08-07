@@ -48,8 +48,7 @@ public class REEFYarnNodeLabelTestDriver {
 
   private final EvaluatorRequestor evaluatorRequestor;
 
-  private final String nodeLabelExpression;
-
+  private final String NODE_LABEL_EXPRESSION = "mylabel";
   private final int LABELED_REQUEST_NUM = 3;
   private final int DEFAULT_REQUEST_NUM = 5;
   private int labeled_container_count;
@@ -63,7 +62,6 @@ public class REEFYarnNodeLabelTestDriver {
   @Inject
   public REEFYarnNodeLabelTestDriver(final EvaluatorRequestor requestor) {
     this.evaluatorRequestor = requestor;
-    this.nodeLabelExpression = "mylabel";
     this.labeled_container_count = 0;
     this.default_container_count = 0;
     LOG.log(Level.FINE, "Instantiated 'REEFYarnNodeLabelTestDriver'");
@@ -76,27 +74,26 @@ public class REEFYarnNodeLabelTestDriver {
     @Override
     public void onNext(final StartTime startTime) {
 
-      for (int i = 0; i < LABELED_REQUEST_NUM; i++) {
-        EvaluatorRequest reqToMylabel = EvaluatorRequest.newBuilder()
+      for (int i = 1; i <= LABELED_REQUEST_NUM; i++) {
+        REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(EvaluatorRequest.newBuilder()
             .setNumber(1)
             .setMemory(64)
             .setNumberOfCores(1)
-            .setNodeLabelExpression(REEFYarnNodeLabelTestDriver.this.nodeLabelExpression)
-            .build();
-        REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToMylabel);
+            .setNodeLabelExpression(REEFYarnNodeLabelTestDriver.this.NODE_LABEL_EXPRESSION)
+            .build());
+        LOG.log(Level.INFO, "Requested " + i + " evaluators with node label: " +
+            REEFYarnNodeLabelTestDriver.this.NODE_LABEL_EXPRESSION);
       }
-      LOG.log(Level.INFO, "Requested " + LABELED_REQUEST_NUM + " evaluators with node label: " +
-          REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
 
-      for (int i = 0; i < DEFAULT_REQUEST_NUM; i++) {
-        EvaluatorRequest reqToDefault = EvaluatorRequest.newBuilder()
+      for (int i = 1; i <= DEFAULT_REQUEST_NUM; i++) {
+        REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(EvaluatorRequest.newBuilder()
             .setNumber(1)
             .setMemory(64)
             .setNumberOfCores(1)
-            .build();
-        REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToDefault);
+            .build());
+        LOG.log(Level.INFO, "Requested " + i + " evaluators without node label");
       }
-      LOG.log(Level.INFO, "Requested " + DEFAULT_REQUEST_NUM + " evaluators without node label");
+
 
     }
   }
