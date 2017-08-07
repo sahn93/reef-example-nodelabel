@@ -30,6 +30,8 @@ import org.apache.reef.tang.Configuration;
 import org.apache.reef.tang.annotations.Unit;
 import org.apache.reef.wake.EventHandler;
 import org.apache.reef.wake.time.event.StartTime;
+import org.apache.reef.wake.time.event.StopTime;
+import org.junit.Assert;
 
 import javax.inject.Inject;
 import java.io.IOException;
@@ -48,6 +50,11 @@ public class REEFYarnNodeLabelTestDriver {
 
   private final String nodeLabelExpression;
 
+  private final int LABELED_REQUEST_NUM = 3;
+  private final int DEFAULT_REQUEST_NUM = 5;
+  private int labeled_req_count;
+  private int default_req_count;
+
   /**
    * Job driver constructor - instantiated via TANG.
    *
@@ -57,6 +64,8 @@ public class REEFYarnNodeLabelTestDriver {
   public REEFYarnNodeLabelTestDriver(final EvaluatorRequestor requestor) {
     this.evaluatorRequestor = requestor;
     this.nodeLabelExpression = "mylabel";
+    this.labeled_req_count = 0;
+    this.default_req_count = 0;
     LOG.log(Level.FINE, "Instantiated 'REEFYarnNodeLabelTestDriver'");
   }
 
@@ -66,22 +75,31 @@ public class REEFYarnNodeLabelTestDriver {
   public final class StartHandler implements EventHandler<StartTime> {
     @Override
     public void onNext(final StartTime startTime) {
+
       final EvaluatorRequest reqToMylabel = EvaluatorRequest.newBuilder()
           .setNumber(1)
           .setMemory(500)
           .setNumberOfCores(1)
           .setNodeLabelExpression(REEFYarnNodeLabelTestDriver.this.nodeLabelExpression)
           .build();
-      LOG.log(Level.INFO, "Requested Evaluator with node label: " + REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
-      REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToMylabel);
+      LOG.log(Level.INFO, "Requested " + LABELED_REQUEST_NUM + " evaluators with node label: " +
+          REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
+
+      for (int i = 0; i < LABELED_REQUEST_NUM; i++) {
+        REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToMylabel);
+      }
 
       final EvaluatorRequest reqToDefault = EvaluatorRequest.newBuilder()
           .setNumber(1)
           .setMemory(500)
           .setNumberOfCores(1)
           .build();
-      LOG.log(Level.INFO, "Requested Evaluator without node label");
-      REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToDefault);
+      LOG.log(Level.INFO, "Requested " + DEFAULT_REQUEST_NUM + " evaluators without node label");
+
+      for (int i = 0; i < DEFAULT_REQUEST_NUM; i++) {
+        REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToDefault);
+      }
+
     }
   }
 
@@ -91,15 +109,13 @@ public class REEFYarnNodeLabelTestDriver {
   public final class EvaluatorAllocatedHandler implements EventHandler<AllocatedEvaluator> {
     @Override
     public void onNext(final AllocatedEvaluator allocatedEvaluator) {
-      LOG.log(Level.INFO, "Evaluator Allocated: {0}", allocatedEvaluator);
+      LOG.log(Level.INFO, "Allocated evaluator: {0}", allocatedEvaluator);
 
       final String host = allocatedEvaluator.getEvaluatorDescriptor().getNodeDescriptor()
           .getInetSocketAddress().getHostString();
-      LOG.log(Level.INFO, "Host: " + host);
 
       final int port = allocatedEvaluator.getEvaluatorDescriptor().getNodeDescriptor()
           .getInetSocketAddress().getPort();
-      LOG.log(Level.INFO, "Port: " + port);
 
       final NodeId nodeid = NodeId.newInstance(host, port);
       LOG.log(Level.INFO, "NodeId: " + nodeid);
@@ -118,7 +134,13 @@ public class REEFYarnNodeLabelTestDriver {
         e.printStackTrace();
       }
 
-      LOG.log(Level.INFO, "Node Labels on this node: " + nodelabels);
+      LOG.log(Level.INFO, "Node labels on this node: " + nodelabels);
+
+      if (nodelabels == null) {
+        REEFYarnNodeLabelTestDriver.this.default_req_count++;
+      } else if (nodelabels.contains("mylabel")) {
+        REEFYarnNodeLabelTestDriver.this.labeled_req_count++;
+      }
 
       LOG.log(Level.INFO, "Submitting Dummy REEF task to AllocatedEvaluator: {0}", allocatedEvaluator);
 
@@ -131,6 +153,22 @@ public class REEFYarnNodeLabelTestDriver {
       allocatedEvaluator.submitTask(taskConfiguration);
 
       allocatedEvaluator.close();
+    }
+  }
+
+  public final class StopHandler implements EventHandler<StopTime> {
+
+    @Override
+    public void onNext(StopTime stopTime) {
+      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.default_req_count,
+          REEFYarnNodeLabelTestDriver.this.DEFAULT_REQUEST_NUM);
+      LOG.log(Level.INFO, "# of total default containers: {0}",
+          REEFYarnNodeLabelTestDriver.this.default_req_count);
+
+      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.labeled_req_count,
+          REEFYarnNodeLabelTestDriver.this.LABELED_REQUEST_NUM);
+      LOG.log(Level.INFO, "# of total labeled containers: {0}",
+          REEFYarnNodeLabelTestDriver.this.labeled_req_count);
     }
   }
 }

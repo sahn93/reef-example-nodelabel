@@ -66,6 +66,7 @@ public class REEFYarnNodeLabelTest {
         .set(DriverConfiguration.DRIVER_IDENTIFIER, "TEST_REEFYarnNodeLabelTest")
         .set(DriverConfiguration.ON_DRIVER_STARTED, REEFYarnNodeLabelTestDriver.StartHandler.class)
         .set(DriverConfiguration.ON_EVALUATOR_ALLOCATED, REEFYarnNodeLabelTestDriver.EvaluatorAllocatedHandler.class)
+        .set(DriverConfiguration.ON_DRIVER_STOP, REEFYarnNodeLabelTestDriver.StopHandler.class)
         .build();
     return driverConf;
   }
