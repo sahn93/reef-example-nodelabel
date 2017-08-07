@@ -72,11 +72,6 @@
             <artifactId>hadoop-yarn-client</artifactId>
             <version>2.7.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.reef</groupId>
-            <artifactId>reef-tests</artifactId>
-            <version>0.16.0</version>
-        </dependency>
     </dependencies>
 
     <build>
