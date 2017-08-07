@@ -52,8 +52,8 @@ public class REEFYarnNodeLabelTestDriver {
 
   private final int LABELED_REQUEST_NUM = 3;
   private final int DEFAULT_REQUEST_NUM = 5;
-  private int labeled_req_count;
-  private int default_req_count;
+  private int labeled_container_count;
+  private int default_container_count;
 
   /**
    * Job driver constructor - instantiated via TANG.
@@ -64,8 +64,8 @@ public class REEFYarnNodeLabelTestDriver {
   public REEFYarnNodeLabelTestDriver(final EvaluatorRequestor requestor) {
     this.evaluatorRequestor = requestor;
     this.nodeLabelExpression = "mylabel";
-    this.labeled_req_count = 0;
-    this.default_req_count = 0;
+    this.labeled_container_count = 0;
+    this.default_container_count = 0;
     LOG.log(Level.FINE, "Instantiated 'REEFYarnNodeLabelTestDriver'");
   }
 
@@ -77,7 +77,7 @@ public class REEFYarnNodeLabelTestDriver {
     public void onNext(final StartTime startTime) {
 
       for (int i = 0; i < LABELED_REQUEST_NUM; i++) {
-        final EvaluatorRequest reqToMylabel = EvaluatorRequest.newBuilder()
+        EvaluatorRequest reqToMylabel = EvaluatorRequest.newBuilder()
             .setNumber(1)
             .setMemory(64)
             .setNumberOfCores(1)
@@ -89,7 +89,7 @@ public class REEFYarnNodeLabelTestDriver {
           REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
 
       for (int i = 0; i < DEFAULT_REQUEST_NUM; i++) {
-        final EvaluatorRequest reqToDefault = EvaluatorRequest.newBuilder()
+        EvaluatorRequest reqToDefault = EvaluatorRequest.newBuilder()
             .setNumber(1)
             .setMemory(64)
             .setNumberOfCores(1)
@@ -135,9 +135,9 @@ public class REEFYarnNodeLabelTestDriver {
       LOG.log(Level.INFO, "Node labels on this node: " + nodelabels);
 
       if (nodelabels == null) {
-        REEFYarnNodeLabelTestDriver.this.default_req_count++;
+        REEFYarnNodeLabelTestDriver.this.default_container_count++;
       } else if (nodelabels.contains("mylabel")) {
-        REEFYarnNodeLabelTestDriver.this.labeled_req_count++;
+        REEFYarnNodeLabelTestDriver.this.labeled_container_count++;
       }
 
       LOG.log(Level.INFO, "Submitting Dummy REEF task to AllocatedEvaluator: {0}", allocatedEvaluator);
@@ -159,13 +159,13 @@ public class REEFYarnNodeLabelTestDriver {
     @Override
     public void onNext(StopTime stopTime) {
       LOG.log(Level.INFO, "# of total default containers: {0}",
-          REEFYarnNodeLabelTestDriver.this.default_req_count);
-      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.default_req_count,
+          REEFYarnNodeLabelTestDriver.this.default_container_count);
+      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.default_container_count,
           REEFYarnNodeLabelTestDriver.this.DEFAULT_REQUEST_NUM);
 
       LOG.log(Level.INFO, "# of total labeled containers: {0}",
-          REEFYarnNodeLabelTestDriver.this.labeled_req_count);
-      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.labeled_req_count,
+          REEFYarnNodeLabelTestDriver.this.labeled_container_count);
+      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.labeled_container_count,
           REEFYarnNodeLabelTestDriver.this.LABELED_REQUEST_NUM);
 
     }
