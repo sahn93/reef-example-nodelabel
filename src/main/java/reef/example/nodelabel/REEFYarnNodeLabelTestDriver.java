@@ -79,24 +79,24 @@ public class REEFYarnNodeLabelTestDriver {
       for (int i = 0; i < LABELED_REQUEST_NUM; i++) {
         final EvaluatorRequest reqToMylabel = EvaluatorRequest.newBuilder()
             .setNumber(1)
-            .setMemory(500)
+            .setMemory(64)
             .setNumberOfCores(1)
             .setNodeLabelExpression(REEFYarnNodeLabelTestDriver.this.nodeLabelExpression)
             .build();
-        LOG.log(Level.INFO, "Requested " + LABELED_REQUEST_NUM + " evaluators with node label: " +
-            REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
         REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToMylabel);
       }
+      LOG.log(Level.INFO, "Requested " + LABELED_REQUEST_NUM + " evaluators with node label: " +
+          REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
 
       for (int i = 0; i < DEFAULT_REQUEST_NUM; i++) {
         final EvaluatorRequest reqToDefault = EvaluatorRequest.newBuilder()
             .setNumber(1)
-            .setMemory(500)
+            .setMemory(64)
             .setNumberOfCores(1)
             .build();
-        LOG.log(Level.INFO, "Requested " + DEFAULT_REQUEST_NUM + " evaluators without node label");
         REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToDefault);
       }
+      LOG.log(Level.INFO, "Requested " + DEFAULT_REQUEST_NUM + " evaluators without node label");
 
     }
   }
