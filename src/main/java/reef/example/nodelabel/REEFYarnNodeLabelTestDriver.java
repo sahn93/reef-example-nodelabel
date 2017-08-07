@@ -76,27 +76,25 @@ public class REEFYarnNodeLabelTestDriver {
     @Override
     public void onNext(final StartTime startTime) {
 
-      final EvaluatorRequest reqToMylabel = EvaluatorRequest.newBuilder()
-          .setNumber(1)
-          .setMemory(500)
-          .setNumberOfCores(1)
-          .setNodeLabelExpression(REEFYarnNodeLabelTestDriver.this.nodeLabelExpression)
-          .build();
-      LOG.log(Level.INFO, "Requested " + LABELED_REQUEST_NUM + " evaluators with node label: " +
-          REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
-
       for (int i = 0; i < LABELED_REQUEST_NUM; i++) {
+        final EvaluatorRequest reqToMylabel = EvaluatorRequest.newBuilder()
+            .setNumber(1)
+            .setMemory(500)
+            .setNumberOfCores(1)
+            .setNodeLabelExpression(REEFYarnNodeLabelTestDriver.this.nodeLabelExpression)
+            .build();
+        LOG.log(Level.INFO, "Requested " + LABELED_REQUEST_NUM + " evaluators with node label: " +
+            REEFYarnNodeLabelTestDriver.this.nodeLabelExpression);
         REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToMylabel);
       }
 
-      final EvaluatorRequest reqToDefault = EvaluatorRequest.newBuilder()
-          .setNumber(1)
-          .setMemory(500)
-          .setNumberOfCores(1)
-          .build();
-      LOG.log(Level.INFO, "Requested " + DEFAULT_REQUEST_NUM + " evaluators without node label");
-
       for (int i = 0; i < DEFAULT_REQUEST_NUM; i++) {
+        final EvaluatorRequest reqToDefault = EvaluatorRequest.newBuilder()
+            .setNumber(1)
+            .setMemory(500)
+            .setNumberOfCores(1)
+            .build();
+        LOG.log(Level.INFO, "Requested " + DEFAULT_REQUEST_NUM + " evaluators without node label");
         REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(reqToDefault);
       }
 
@@ -160,15 +158,16 @@ public class REEFYarnNodeLabelTestDriver {
 
     @Override
     public void onNext(StopTime stopTime) {
-      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.default_req_count,
-          REEFYarnNodeLabelTestDriver.this.DEFAULT_REQUEST_NUM);
       LOG.log(Level.INFO, "# of total default containers: {0}",
           REEFYarnNodeLabelTestDriver.this.default_req_count);
+      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.default_req_count,
+          REEFYarnNodeLabelTestDriver.this.DEFAULT_REQUEST_NUM);
 
-      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.labeled_req_count,
-          REEFYarnNodeLabelTestDriver.this.LABELED_REQUEST_NUM);
       LOG.log(Level.INFO, "# of total labeled containers: {0}",
           REEFYarnNodeLabelTestDriver.this.labeled_req_count);
+      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.labeled_req_count,
+          REEFYarnNodeLabelTestDriver.this.LABELED_REQUEST_NUM);
+
     }
   }
 }
