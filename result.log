@@ -1,0 +1,608 @@
+
+
+Container: container_1501855323459_0019_01_000009 on seoul-23_42680
+=====================================================================
+LogType:evaluator.stderr
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:1399
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:40 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.evaluator.context.defaults.DefaultContextStartHandler onNext
+INFO: DefaultContextStartHandler received: org.apache.reef.runtime.common.evaluator.context.ContextStartImpl@247bddad
+Aug 07, 2017 6:56:41 PM org.apache.reef.wake.impl.MissingStartHandlerHandler onNext
+WARNING: No binding to Clock.StartHandler. It is likely that the clock will immediately go idle and close.
+Aug 07, 2017 6:56:41 PM org.apache.reef.wake.remote.transport.netty.NettyMessagingTransport open
+WARNING: Connection refused. Retry 1 of 3
+Aug 07, 2017 6:56:41 PM org.apache.reef.wake.remote.transport.netty.NettyMessagingTransport open
+WARNING: Connection refused. Retry 1 of 3
+Aug 07, 2017 6:56:41 PM org.apache.reef.wake.remote.transport.netty.NettyMessagingTransport open
+WARNING: Connection refused. Retry 1 of 3
+Aug 07, 2017 6:56:41 PM org.apache.reef.wake.remote.transport.netty.NettyMessagingTransport open
+WARNING: Connection refused. Retry 1 of 3
+End of LogType:evaluator.stderr
+
+LogType:evaluator.stdout
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:evaluator.stdout
+
+
+
+Container: container_1501855323459_0019_01_000006 on seoul-23_42680
+=====================================================================
+LogType:evaluator.stderr
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:843
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:34 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.common.evaluator.context.defaults.DefaultContextStartHandler onNext
+INFO: DefaultContextStartHandler received: org.apache.reef.runtime.common.evaluator.context.ContextStartImpl@247bddad
+Aug 07, 2017 6:56:34 PM org.apache.reef.wake.impl.MissingStartHandlerHandler onNext
+WARNING: No binding to Clock.StartHandler. It is likely that the clock will immediately go idle and close.
+End of LogType:evaluator.stderr
+
+LogType:evaluator.stdout
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:evaluator.stdout
+
+
+
+Container: container_1501855323459_0019_01_000005 on seoul-23_42680
+=====================================================================
+LogType:evaluator.stderr
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:843
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:32 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.common.evaluator.context.defaults.DefaultContextStartHandler onNext
+INFO: DefaultContextStartHandler received: org.apache.reef.runtime.common.evaluator.context.ContextStartImpl@247bddad
+Aug 07, 2017 6:56:32 PM org.apache.reef.wake.impl.MissingStartHandlerHandler onNext
+WARNING: No binding to Clock.StartHandler. It is likely that the clock will immediately go idle and close.
+End of LogType:evaluator.stderr
+
+LogType:evaluator.stdout
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:evaluator.stdout
+
+
+
+Container: container_1501855323459_0019_01_000008 on seoul-23_42680
+=====================================================================
+LogType:evaluator.stderr
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:843
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:38 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:38 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:38 PM org.apache.reef.runtime.common.evaluator.context.defaults.DefaultContextStartHandler onNext
+INFO: DefaultContextStartHandler received: org.apache.reef.runtime.common.evaluator.context.ContextStartImpl@247bddad
+Aug 07, 2017 6:56:39 PM org.apache.reef.wake.impl.MissingStartHandlerHandler onNext
+WARNING: No binding to Clock.StartHandler. It is likely that the clock will immediately go idle and close.
+End of LogType:evaluator.stderr
+
+LogType:evaluator.stdout
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:evaluator.stdout
+
+
+
+Container: container_1501855323459_0019_01_000007 on seoul-23_42680
+=====================================================================
+LogType:evaluator.stderr
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:843
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:36 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:36 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:36 PM org.apache.reef.runtime.common.evaluator.context.defaults.DefaultContextStartHandler onNext
+INFO: DefaultContextStartHandler received: org.apache.reef.runtime.common.evaluator.context.ContextStartImpl@247bddad
+Aug 07, 2017 6:56:36 PM org.apache.reef.wake.impl.MissingStartHandlerHandler onNext
+WARNING: No binding to Clock.StartHandler. It is likely that the clock will immediately go idle and close.
+End of LogType:evaluator.stderr
+
+LogType:evaluator.stdout
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:evaluator.stdout
+
+
+
+Container: container_1501855323459_0019_01_000001 on seoul-23_42680
+=====================================================================
+LogType:driver.stderr
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:43197
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:23 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:23 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:23 PM org.apache.reef.runtime.yarn.YarnClasspathProvider <init>
+SEVERE: YarnConfiguration.YARN_APPLICATION_CLASSPATH is empty. This indicates a broken cluster configuration.
+Aug 07, 2017 6:56:24 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl serviceInit
+INFO: Upper bound of the thread pool size is 500
+Aug 07, 2017 6:56:24 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy <init>
+INFO: yarn.client.max-cached-nodemanagers-proxies : 0
+Aug 07, 2017 6:56:24 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8030
+Aug 07, 2017 6:56:24 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StartHandler onNext
+INFO: Requested 1 evaluators with node label: mylabel
+Aug 07, 2017 6:56:24 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StartHandler onNext
+INFO: Requested 2 evaluators with node label: mylabel
+Aug 07, 2017 6:56:24 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StartHandler onNext
+INFO: Requested 3 evaluators with node label: mylabel
+Aug 07, 2017 6:56:24 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StartHandler onNext
+INFO: Requested 1 evaluators without node label
+Aug 07, 2017 6:56:24 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StartHandler onNext
+INFO: Requested 2 evaluators without node label
+Aug 07, 2017 6:56:24 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StartHandler onNext
+INFO: Requested 3 evaluators without node label
+Aug 07, 2017 6:56:24 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StartHandler onNext
+INFO: Requested 4 evaluators without node label
+Aug 07, 2017 6:56:24 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StartHandler onNext
+INFO: Requested 5 evaluators without node label
+Aug 07, 2017 6:56:26 PM org.apache.hadoop.yarn.client.api.impl.AMRMClientImpl populateNMTokens
+INFO: Received new token for : seoul-24:41326
+Aug 07, 2017 6:56:26 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManagerFactory getNewEvaluatorManagerInstanceForResource
+WARNING: Node {} is not in our catalog, adding it
+Aug 07, 2017 6:56:26 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Allocated evaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000002'}
+Aug 07, 2017 6:56:26 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: NodeId: seoul-24:41326
+Aug 07, 2017 6:56:26 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8032
+Aug 07, 2017 6:56:26 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Node labels on this node: [mylabel]
+Aug 07, 2017 6:56:26 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Submitting Dummy REEF task to AllocatedEvaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000002'}
+Aug 07, 2017 6:56:26 PM org.apache.reef.runtime.common.driver.evaluator.AllocatedEvaluatorImpl makeRootServiceConfiguration
+INFO: No service configuration given and no ConfigurationProviders set.
+Aug 07, 2017 6:56:27 PM org.apache.reef.runtime.yarn.driver.EvaluatorSetupHelper getResources
+WARNING: Failed to delete [/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1501855323459_0019/container_1501855323459_0019_01_000001/./reef/temp/reef-evaluator-6465692152556439948]
+Aug 07, 2017 6:56:27 PM org.apache.reef.runtime.yarn.driver.YARNResourceLaunchHandler onNext
+INFO: TIME: Run ResourceLaunchProto container_1501855323459_0019_01_000002 command: {{JAVA_HOME}}/bin/java -Xmx10240m -XX:PermSize=128m -XX:MaxPermSize=128m -classpath $HADOOP_CONF_DIR:$HADOOP_HOME/*:$HADOOP_HOME/lib/*:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_COMMON_HOME/etc/hadoop/client/*:$HADOOP_HOME/etc/hadoop:$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/common/lib/*:$HADOOP_HOME/share/hadoop/yarn/*:$HADOOP_HOME/share/hadoop/yarn/lib/*:$HADOOP_HOME/share/hadoop/hdfs/*:$HADOOP_HOME/share/hadoop/hdfs/lib/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/mapreduce/lib/*:reef/local/*:reef/global/* -Dproc_reef org.apache.reef.runtime.common.REEFLauncher reef/local/evaluator.conf 1> <LOG_DIR>/evaluator.stdout 2> <LOG_DIR>/evaluator.stderr resources: {reef/global=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/global.jar" } size: 24496298 timestamp: 1502099787283 type: ARCHIVE visibility: APPLICATION, reef/local=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/reef-evaluator-4497830715215488157.jar" } size: 801 timestamp: 1502099787356 type: ARCHIVE visibility: APPLICATION}
+Aug 07, 2017 6:56:27 PM org.apache.reef.runtime.yarn.util.YarnTypes getContainerLaunchContext
+INFO: Added tokens to container launch context
+Aug 07, 2017 6:56:27 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManager close
+WARNING: Dirty shutdown of running evaluator id[container_1501855323459_0019_01_000002]
+Aug 07, 2017 6:56:27 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: START_CONTAINER for Container container_1501855323459_0019_01_000002
+Aug 07, 2017 6:56:27 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-24:41326
+Aug 07, 2017 6:56:27 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: QUERY_CONTAINER for Container container_1501855323459_0019_01_000002
+Aug 07, 2017 6:56:27 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-24:41326
+Aug 07, 2017 6:56:27 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager onContainerStatus
+INFO: Container running
+Aug 07, 2017 6:56:28 PM org.apache.hadoop.yarn.client.api.impl.AMRMClientImpl populateNMTokens
+INFO: Received new token for : seoul-23:42680
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManagerFactory getNewEvaluatorManagerInstanceForResource
+WARNING: Node {} is not in our catalog, adding it
+Aug 07, 2017 6:56:28 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Allocated evaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000003'}
+Aug 07, 2017 6:56:28 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: NodeId: seoul-23:42680
+Aug 07, 2017 6:56:28 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8032
+Aug 07, 2017 6:56:28 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Node labels on this node: null
+Aug 07, 2017 6:56:28 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Submitting Dummy REEF task to AllocatedEvaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000003'}
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.driver.evaluator.AllocatedEvaluatorImpl makeRootServiceConfiguration
+INFO: No service configuration given and no ConfigurationProviders set.
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000002] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000002] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000002] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000002] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.yarn.driver.EvaluatorSetupHelper getResources
+WARNING: Failed to delete [/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1501855323459_0019/container_1501855323459_0019_01_000001/./reef/temp/reef-evaluator-180411061240098003]
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.yarn.driver.YARNResourceLaunchHandler onNext
+INFO: TIME: Run ResourceLaunchProto container_1501855323459_0019_01_000003 command: {{JAVA_HOME}}/bin/java -Xmx10240m -XX:PermSize=128m -XX:MaxPermSize=128m -classpath $HADOOP_CONF_DIR:$HADOOP_HOME/*:$HADOOP_HOME/lib/*:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_COMMON_HOME/etc/hadoop/client/*:$HADOOP_HOME/etc/hadoop:$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/common/lib/*:$HADOOP_HOME/share/hadoop/yarn/*:$HADOOP_HOME/share/hadoop/yarn/lib/*:$HADOOP_HOME/share/hadoop/hdfs/*:$HADOOP_HOME/share/hadoop/hdfs/lib/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/mapreduce/lib/*:reef/local/*:reef/global/* -Dproc_reef org.apache.reef.runtime.common.REEFLauncher reef/local/evaluator.conf 1> <LOG_DIR>/evaluator.stdout 2> <LOG_DIR>/evaluator.stderr resources: {reef/global=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/global.jar" } size: 24496298 timestamp: 1502099787283 type: ARCHIVE visibility: APPLICATION, reef/local=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/reef-evaluator-3187200666836610773.jar" } size: 802 timestamp: 1502099788403 type: ARCHIVE visibility: APPLICATION}
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.yarn.util.YarnTypes getContainerLaunchContext
+INFO: Added tokens to container launch context
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManager close
+WARNING: Dirty shutdown of running evaluator id[container_1501855323459_0019_01_000003]
+Aug 07, 2017 6:56:28 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: START_CONTAINER for Container container_1501855323459_0019_01_000003
+Aug 07, 2017 6:56:28 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:28 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: QUERY_CONTAINER for Container container_1501855323459_0019_01_000003
+Aug 07, 2017 6:56:28 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager onContainerStatus
+INFO: Container running
+Aug 07, 2017 6:56:29 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000003] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:29 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000003] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:29 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000003] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:29 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000003] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:30 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Allocated evaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000004'}
+Aug 07, 2017 6:56:30 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: NodeId: seoul-23:42680
+Aug 07, 2017 6:56:30 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8032
+Aug 07, 2017 6:56:30 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Node labels on this node: null
+Aug 07, 2017 6:56:30 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Submitting Dummy REEF task to AllocatedEvaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000004'}
+Aug 07, 2017 6:56:30 PM org.apache.reef.runtime.common.driver.evaluator.AllocatedEvaluatorImpl makeRootServiceConfiguration
+INFO: No service configuration given and no ConfigurationProviders set.
+Aug 07, 2017 6:56:30 PM org.apache.reef.runtime.yarn.driver.EvaluatorSetupHelper getResources
+WARNING: Failed to delete [/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1501855323459_0019/container_1501855323459_0019_01_000001/./reef/temp/reef-evaluator-2576268470088071889]
+Aug 07, 2017 6:56:30 PM org.apache.reef.runtime.yarn.driver.YARNResourceLaunchHandler onNext
+INFO: TIME: Run ResourceLaunchProto container_1501855323459_0019_01_000004 command: {{JAVA_HOME}}/bin/java -Xmx10240m -XX:PermSize=128m -XX:MaxPermSize=128m -classpath $HADOOP_CONF_DIR:$HADOOP_HOME/*:$HADOOP_HOME/lib/*:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_COMMON_HOME/etc/hadoop/client/*:$HADOOP_HOME/etc/hadoop:$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/common/lib/*:$HADOOP_HOME/share/hadoop/yarn/*:$HADOOP_HOME/share/hadoop/yarn/lib/*:$HADOOP_HOME/share/hadoop/hdfs/*:$HADOOP_HOME/share/hadoop/hdfs/lib/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/mapreduce/lib/*:reef/local/*:reef/global/* -Dproc_reef org.apache.reef.runtime.common.REEFLauncher reef/local/evaluator.conf 1> <LOG_DIR>/evaluator.stdout 2> <LOG_DIR>/evaluator.stderr resources: {reef/global=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/global.jar" } size: 24496298 timestamp: 1502099787283 type: ARCHIVE visibility: APPLICATION, reef/local=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/reef-evaluator-3740448042593496237.jar" } size: 796 timestamp: 1502099790280 type: ARCHIVE visibility: APPLICATION}
+Aug 07, 2017 6:56:30 PM org.apache.reef.runtime.yarn.util.YarnTypes getContainerLaunchContext
+INFO: Added tokens to container launch context
+Aug 07, 2017 6:56:30 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManager close
+WARNING: Dirty shutdown of running evaluator id[container_1501855323459_0019_01_000004]
+Aug 07, 2017 6:56:30 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: START_CONTAINER for Container container_1501855323459_0019_01_000004
+Aug 07, 2017 6:56:30 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:30 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: QUERY_CONTAINER for Container container_1501855323459_0019_01_000004
+Aug 07, 2017 6:56:30 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:30 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager onContainerStatus
+INFO: Container running
+Aug 07, 2017 6:56:31 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000004] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:31 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000004] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:31 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000004] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:31 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000004] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:32 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Allocated evaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000005'}
+Aug 07, 2017 6:56:32 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: NodeId: seoul-23:42680
+Aug 07, 2017 6:56:32 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8032
+Aug 07, 2017 6:56:32 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Node labels on this node: null
+Aug 07, 2017 6:56:32 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Submitting Dummy REEF task to AllocatedEvaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000005'}
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.common.driver.evaluator.AllocatedEvaluatorImpl makeRootServiceConfiguration
+INFO: No service configuration given and no ConfigurationProviders set.
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.yarn.driver.EvaluatorSetupHelper getResources
+WARNING: Failed to delete [/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1501855323459_0019/container_1501855323459_0019_01_000001/./reef/temp/reef-evaluator-6986733793398046542]
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.yarn.driver.YARNResourceLaunchHandler onNext
+INFO: TIME: Run ResourceLaunchProto container_1501855323459_0019_01_000005 command: {{JAVA_HOME}}/bin/java -Xmx10240m -XX:PermSize=128m -XX:MaxPermSize=128m -classpath $HADOOP_CONF_DIR:$HADOOP_HOME/*:$HADOOP_HOME/lib/*:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_COMMON_HOME/etc/hadoop/client/*:$HADOOP_HOME/etc/hadoop:$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/common/lib/*:$HADOOP_HOME/share/hadoop/yarn/*:$HADOOP_HOME/share/hadoop/yarn/lib/*:$HADOOP_HOME/share/hadoop/hdfs/*:$HADOOP_HOME/share/hadoop/hdfs/lib/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/mapreduce/lib/*:reef/local/*:reef/global/* -Dproc_reef org.apache.reef.runtime.common.REEFLauncher reef/local/evaluator.conf 1> <LOG_DIR>/evaluator.stdout 2> <LOG_DIR>/evaluator.stderr resources: {reef/global=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/global.jar" } size: 24496298 timestamp: 1502099787283 type: ARCHIVE visibility: APPLICATION, reef/local=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/reef-evaluator-1898242386897808904.jar" } size: 801 timestamp: 1502099792274 type: ARCHIVE visibility: APPLICATION}
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.yarn.util.YarnTypes getContainerLaunchContext
+INFO: Added tokens to container launch context
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManager close
+WARNING: Dirty shutdown of running evaluator id[container_1501855323459_0019_01_000005]
+Aug 07, 2017 6:56:32 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: START_CONTAINER for Container container_1501855323459_0019_01_000005
+Aug 07, 2017 6:56:32 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:32 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: QUERY_CONTAINER for Container container_1501855323459_0019_01_000005
+Aug 07, 2017 6:56:32 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager onContainerStatus
+INFO: Container running
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000005] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000005] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000005] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:32 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000005] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:34 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Allocated evaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000006'}
+Aug 07, 2017 6:56:34 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: NodeId: seoul-23:42680
+Aug 07, 2017 6:56:34 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8032
+Aug 07, 2017 6:56:34 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Node labels on this node: null
+Aug 07, 2017 6:56:34 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Submitting Dummy REEF task to AllocatedEvaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000006'}
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.common.driver.evaluator.AllocatedEvaluatorImpl makeRootServiceConfiguration
+INFO: No service configuration given and no ConfigurationProviders set.
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.yarn.driver.EvaluatorSetupHelper getResources
+WARNING: Failed to delete [/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1501855323459_0019/container_1501855323459_0019_01_000001/./reef/temp/reef-evaluator-5030330705713493737]
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.yarn.driver.YARNResourceLaunchHandler onNext
+INFO: TIME: Run ResourceLaunchProto container_1501855323459_0019_01_000006 command: {{JAVA_HOME}}/bin/java -Xmx10240m -XX:PermSize=128m -XX:MaxPermSize=128m -classpath $HADOOP_CONF_DIR:$HADOOP_HOME/*:$HADOOP_HOME/lib/*:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_COMMON_HOME/etc/hadoop/client/*:$HADOOP_HOME/etc/hadoop:$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/common/lib/*:$HADOOP_HOME/share/hadoop/yarn/*:$HADOOP_HOME/share/hadoop/yarn/lib/*:$HADOOP_HOME/share/hadoop/hdfs/*:$HADOOP_HOME/share/hadoop/hdfs/lib/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/mapreduce/lib/*:reef/local/*:reef/global/* -Dproc_reef org.apache.reef.runtime.common.REEFLauncher reef/local/evaluator.conf 1> <LOG_DIR>/evaluator.stdout 2> <LOG_DIR>/evaluator.stderr resources: {reef/global=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/global.jar" } size: 24496298 timestamp: 1502099787283 type: ARCHIVE visibility: APPLICATION, reef/local=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/reef-evaluator-1315833555770353.jar" } size: 802 timestamp: 1502099794291 type: ARCHIVE visibility: APPLICATION}
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.yarn.util.YarnTypes getContainerLaunchContext
+INFO: Added tokens to container launch context
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManager close
+WARNING: Dirty shutdown of running evaluator id[container_1501855323459_0019_01_000006]
+Aug 07, 2017 6:56:34 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: START_CONTAINER for Container container_1501855323459_0019_01_000006
+Aug 07, 2017 6:56:34 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:34 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: QUERY_CONTAINER for Container container_1501855323459_0019_01_000006
+Aug 07, 2017 6:56:34 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager onContainerStatus
+INFO: Container running
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000006] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000006] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000006] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:34 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000006] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:36 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Allocated evaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000007'}
+Aug 07, 2017 6:56:36 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: NodeId: seoul-23:42680
+Aug 07, 2017 6:56:36 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8032
+Aug 07, 2017 6:56:36 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Node labels on this node: null
+Aug 07, 2017 6:56:36 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Submitting Dummy REEF task to AllocatedEvaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000007'}
+Aug 07, 2017 6:56:36 PM org.apache.reef.runtime.common.driver.evaluator.AllocatedEvaluatorImpl makeRootServiceConfiguration
+INFO: No service configuration given and no ConfigurationProviders set.
+Aug 07, 2017 6:56:36 PM org.apache.reef.runtime.yarn.driver.EvaluatorSetupHelper getResources
+WARNING: Failed to delete [/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1501855323459_0019/container_1501855323459_0019_01_000001/./reef/temp/reef-evaluator-8743740816011105540]
+Aug 07, 2017 6:56:36 PM org.apache.reef.runtime.yarn.driver.YARNResourceLaunchHandler onNext
+INFO: TIME: Run ResourceLaunchProto container_1501855323459_0019_01_000007 command: {{JAVA_HOME}}/bin/java -Xmx10240m -XX:PermSize=128m -XX:MaxPermSize=128m -classpath $HADOOP_CONF_DIR:$HADOOP_HOME/*:$HADOOP_HOME/lib/*:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_COMMON_HOME/etc/hadoop/client/*:$HADOOP_HOME/etc/hadoop:$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/common/lib/*:$HADOOP_HOME/share/hadoop/yarn/*:$HADOOP_HOME/share/hadoop/yarn/lib/*:$HADOOP_HOME/share/hadoop/hdfs/*:$HADOOP_HOME/share/hadoop/hdfs/lib/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/mapreduce/lib/*:reef/local/*:reef/global/* -Dproc_reef org.apache.reef.runtime.common.REEFLauncher reef/local/evaluator.conf 1> <LOG_DIR>/evaluator.stdout 2> <LOG_DIR>/evaluator.stderr resources: {reef/global=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/global.jar" } size: 24496298 timestamp: 1502099787283 type: ARCHIVE visibility: APPLICATION, reef/local=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/reef-evaluator-5293860810652465987.jar" } size: 799 timestamp: 1502099796283 type: ARCHIVE visibility: APPLICATION}
+Aug 07, 2017 6:56:36 PM org.apache.reef.runtime.yarn.util.YarnTypes getContainerLaunchContext
+INFO: Added tokens to container launch context
+Aug 07, 2017 6:56:36 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManager close
+WARNING: Dirty shutdown of running evaluator id[container_1501855323459_0019_01_000007]
+Aug 07, 2017 6:56:36 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: START_CONTAINER for Container container_1501855323459_0019_01_000007
+Aug 07, 2017 6:56:36 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:36 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: QUERY_CONTAINER for Container container_1501855323459_0019_01_000007
+Aug 07, 2017 6:56:36 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:36 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager onContainerStatus
+INFO: Container running
+Aug 07, 2017 6:56:37 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000007] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:37 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000007] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:37 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000007] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:37 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000007] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:38 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Allocated evaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000008'}
+Aug 07, 2017 6:56:38 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: NodeId: seoul-23:42680
+Aug 07, 2017 6:56:38 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8032
+Aug 07, 2017 6:56:38 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Node labels on this node: null
+Aug 07, 2017 6:56:38 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Submitting Dummy REEF task to AllocatedEvaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000008'}
+Aug 07, 2017 6:56:38 PM org.apache.reef.runtime.common.driver.evaluator.AllocatedEvaluatorImpl makeRootServiceConfiguration
+INFO: No service configuration given and no ConfigurationProviders set.
+Aug 07, 2017 6:56:38 PM org.apache.reef.runtime.yarn.driver.EvaluatorSetupHelper getResources
+WARNING: Failed to delete [/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1501855323459_0019/container_1501855323459_0019_01_000001/./reef/temp/reef-evaluator-8414731601314570877]
+Aug 07, 2017 6:56:38 PM org.apache.reef.runtime.yarn.driver.YARNResourceLaunchHandler onNext
+INFO: TIME: Run ResourceLaunchProto container_1501855323459_0019_01_000008 command: {{JAVA_HOME}}/bin/java -Xmx10240m -XX:PermSize=128m -XX:MaxPermSize=128m -classpath $HADOOP_CONF_DIR:$HADOOP_HOME/*:$HADOOP_HOME/lib/*:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_COMMON_HOME/etc/hadoop/client/*:$HADOOP_HOME/etc/hadoop:$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/common/lib/*:$HADOOP_HOME/share/hadoop/yarn/*:$HADOOP_HOME/share/hadoop/yarn/lib/*:$HADOOP_HOME/share/hadoop/hdfs/*:$HADOOP_HOME/share/hadoop/hdfs/lib/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/mapreduce/lib/*:reef/local/*:reef/global/* -Dproc_reef org.apache.reef.runtime.common.REEFLauncher reef/local/evaluator.conf 1> <LOG_DIR>/evaluator.stdout 2> <LOG_DIR>/evaluator.stderr resources: {reef/global=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/global.jar" } size: 24496298 timestamp: 1502099787283 type: ARCHIVE visibility: APPLICATION, reef/local=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/reef-evaluator-29963084107828721.jar" } size: 801 timestamp: 1502099798307 type: ARCHIVE visibility: APPLICATION}
+Aug 07, 2017 6:56:38 PM org.apache.reef.runtime.yarn.util.YarnTypes getContainerLaunchContext
+INFO: Added tokens to container launch context
+Aug 07, 2017 6:56:38 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManager close
+WARNING: Dirty shutdown of running evaluator id[container_1501855323459_0019_01_000008]
+Aug 07, 2017 6:56:38 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: START_CONTAINER for Container container_1501855323459_0019_01_000008
+Aug 07, 2017 6:56:38 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:38 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: QUERY_CONTAINER for Container container_1501855323459_0019_01_000008
+Aug 07, 2017 6:56:38 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:38 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager onContainerStatus
+INFO: Container running
+Aug 07, 2017 6:56:39 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000008] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:39 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000008] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:39 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000008] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:39 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorHeartbeatHandler onNext
+WARNING: Evaluator [container_1501855323459_0019_01_000008] has reported back to the driver after it was closed.
+Aug 07, 2017 6:56:40 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Allocated evaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000009'}
+Aug 07, 2017 6:56:40 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: NodeId: seoul-23:42680
+Aug 07, 2017 6:56:40 PM org.apache.hadoop.yarn.client.RMProxy createRMProxy
+INFO: Connecting to ResourceManager at seoul-m/192.168.1.12:8032
+Aug 07, 2017 6:56:40 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Node labels on this node: null
+Aug 07, 2017 6:56:40 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$EvaluatorAllocatedHandler onNext
+INFO: Submitting Dummy REEF task to AllocatedEvaluator: AllocatedEvaluator{ID='container_1501855323459_0019_01_000009'}
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.driver.evaluator.AllocatedEvaluatorImpl makeRootServiceConfiguration
+INFO: No service configuration given and no ConfigurationProviders set.
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.yarn.driver.EvaluatorSetupHelper getResources
+WARNING: Failed to delete [/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1501855323459_0019/container_1501855323459_0019_01_000001/./reef/temp/reef-evaluator-7043699410746225758]
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.yarn.driver.YARNResourceLaunchHandler onNext
+INFO: TIME: Run ResourceLaunchProto container_1501855323459_0019_01_000009 command: {{JAVA_HOME}}/bin/java -Xmx10240m -XX:PermSize=128m -XX:MaxPermSize=128m -classpath $HADOOP_CONF_DIR:$HADOOP_HOME/*:$HADOOP_HOME/lib/*:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_COMMON_HOME/etc/hadoop/client/*:$HADOOP_HOME/etc/hadoop:$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/common/lib/*:$HADOOP_HOME/share/hadoop/yarn/*:$HADOOP_HOME/share/hadoop/yarn/lib/*:$HADOOP_HOME/share/hadoop/hdfs/*:$HADOOP_HOME/share/hadoop/hdfs/lib/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/mapreduce/lib/*:reef/local/*:reef/global/* -Dproc_reef org.apache.reef.runtime.common.REEFLauncher reef/local/evaluator.conf 1> <LOG_DIR>/evaluator.stdout 2> <LOG_DIR>/evaluator.stderr resources: {reef/global=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/global.jar" } size: 24496298 timestamp: 1502099787283 type: ARCHIVE visibility: APPLICATION, reef/local=resource { scheme: "hdfs" host: "seoul-m" port: 9000 file: "/tmp/2017_08_07_18_56_20_reef-job-19/reef-evaluator-4400510099384441117.jar" } size: 798 timestamp: 1502099800326 type: ARCHIVE visibility: APPLICATION}
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.yarn.util.YarnTypes getContainerLaunchContext
+INFO: Added tokens to container launch context
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.driver.evaluator.EvaluatorManager close
+WARNING: Dirty shutdown of running evaluator id[container_1501855323459_0019_01_000009]
+Aug 07, 2017 6:56:40 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: START_CONTAINER for Container container_1501855323459_0019_01_000009
+Aug 07, 2017 6:56:40 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:40 PM org.apache.hadoop.yarn.client.api.async.impl.NMClientAsyncImpl run
+INFO: Processing Event EventType: QUERY_CONTAINER for Container container_1501855323459_0019_01_000009
+Aug 07, 2017 6:56:40 PM org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy newProxy
+INFO: Opening proxy : seoul-23:42680
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager onContainerStatus
+INFO: Container running
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.driver.idle.DriverIdleManager onPotentiallyIdle
+INFO: All components indicated idle. Initiating Driver shutdown.
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.driver.DriverStatusManager onComplete
+INFO: Clean shutdown of the Driver.
+Aug 07, 2017 6:56:40 PM reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StopHandler onNext
+INFO: # of total default containers: 7
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.REEFEnvironment run
+SEVERE: Clock: Error in main event loop
+java.lang.AssertionError: expected:<7> but was:<5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StopHandler.onNext(REEFYarnNodeLabelTestDriver.java:160)
+	at reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StopHandler.onNext(REEFYarnNodeLabelTestDriver.java:154)
+	at org.apache.reef.wake.impl.PubSubEventHandler.onNext(PubSubEventHandler.java:98)
+	at org.apache.reef.wake.time.runtime.RuntimeClock.run(RuntimeClock.java:348)
+	at org.apache.reef.runtime.common.REEFEnvironment.run(REEFEnvironment.java:191)
+	at org.apache.reef.runtime.common.REEFLauncher.main(REEFLauncher.java:181)
+
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.launch.REEFErrorHandler onNext
+SEVERE: Uncaught exception.
+java.lang.AssertionError: expected:<7> but was:<5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StopHandler.onNext(REEFYarnNodeLabelTestDriver.java:160)
+	at reef.example.nodelabel.REEFYarnNodeLabelTestDriver$StopHandler.onNext(REEFYarnNodeLabelTestDriver.java:154)
+	at org.apache.reef.wake.impl.PubSubEventHandler.onNext(PubSubEventHandler.java:98)
+	at org.apache.reef.wake.time.runtime.RuntimeClock.run(RuntimeClock.java:348)
+	at org.apache.reef.runtime.common.REEFEnvironment.run(REEFEnvironment.java:191)
+	at org.apache.reef.runtime.common.REEFLauncher.main(REEFLauncher.java:181)
+
+Aug 07, 2017 6:56:40 PM org.apache.reef.runtime.common.launch.REEFErrorHandler onNext
+INFO: Successfully sent the error upstream: java.lang.AssertionError: expected:<7> but was:<5>
+Aug 07, 2017 6:56:42 PM org.apache.reef.runtime.yarn.driver.YarnContainerManager handleNewContainer
+WARNING: Got an extra container container_1501855323459_0019_01_000010 that doesnt match, releasing...
+Aug 07, 2017 6:56:42 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Exiting REEFLauncher.main()
+End of LogType:driver.stderr
+
+LogType:driver.stdout
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:driver.stdout
+
+
+
+Container: container_1501855323459_0019_01_000004 on seoul-23_42680
+=====================================================================
+LogType:evaluator.stderr
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:843
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:30 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:30 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:30 PM org.apache.reef.runtime.common.evaluator.context.defaults.DefaultContextStartHandler onNext
+INFO: DefaultContextStartHandler received: org.apache.reef.runtime.common.evaluator.context.ContextStartImpl@247bddad
+Aug 07, 2017 6:56:30 PM org.apache.reef.wake.impl.MissingStartHandlerHandler onNext
+WARNING: No binding to Clock.StartHandler. It is likely that the clock will immediately go idle and close.
+End of LogType:evaluator.stderr
+
+LogType:evaluator.stdout
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:evaluator.stdout
+
+
+
+Container: container_1501855323459_0019_01_000003 on seoul-23_42680
+=====================================================================
+LogType:evaluator.stderr
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:843
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:28 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:29 PM org.apache.reef.runtime.common.evaluator.context.defaults.DefaultContextStartHandler onNext
+INFO: DefaultContextStartHandler received: org.apache.reef.runtime.common.evaluator.context.ContextStartImpl@247bddad
+Aug 07, 2017 6:56:29 PM org.apache.reef.wake.impl.MissingStartHandlerHandler onNext
+WARNING: No binding to Clock.StartHandler. It is likely that the clock will immediately go idle and close.
+End of LogType:evaluator.stderr
+
+LogType:evaluator.stdout
+Log Upload Time:Mon Aug 07 18:56:43 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:evaluator.stdout
+
+
+
+Container: container_1501855323459_0019_01_000002 on seoul-24_41326
+=====================================================================
+LogType:evaluator.stderr
+Log Upload Time:Mon Aug 07 18:56:44 +0900 2017
+LogLength:843
+Log Contents:
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=128m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Aug 07, 2017 6:56:27 PM org.apache.reef.runtime.common.REEFLauncher main
+INFO: Entering REEFLauncher.main().
+Aug 07, 2017 6:56:27 PM org.apache.reef.util.REEFVersion logVersion
+INFO: REEF Version: 0.16.0-SNAPSHOT
+Aug 07, 2017 6:56:28 PM org.apache.reef.runtime.common.evaluator.context.defaults.DefaultContextStartHandler onNext
+INFO: DefaultContextStartHandler received: org.apache.reef.runtime.common.evaluator.context.ContextStartImpl@247bddad
+Aug 07, 2017 6:56:28 PM org.apache.reef.wake.impl.MissingStartHandlerHandler onNext
+WARNING: No binding to Clock.StartHandler. It is likely that the clock will immediately go idle and close.
+End of LogType:evaluator.stderr
+
+LogType:evaluator.stdout
+Log Upload Time:Mon Aug 07 18:56:44 +0900 2017
+LogLength:0
+Log Contents:
+End of LogType:evaluator.stdout
+
