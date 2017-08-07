@@ -59,11 +59,11 @@ public class REEFYarnNodeLabelTest {
   /**
    * @return the configuration of the REEFYarnNodeLabelTest driver.
    */
-  private static Configuration getDriverConfiguration(String nodeLabelExpression) {
+  private static Configuration getDriverConfiguration() {
     // TODO: build DriverConfiguration
     final Configuration driverConf = DriverConfiguration.CONF
         .set(DriverConfiguration.GLOBAL_LIBRARIES, EnvironmentUtils.getClassLocation(REEFYarnNodeLabelTestDriver.class))
-        .set(DriverConfiguration.DRIVER_IDENTIFIER, "TEST_REEFYarnNodeLabelTest-" + nodeLabelExpression)
+        .set(DriverConfiguration.DRIVER_IDENTIFIER, "TEST_REEFYarnNodeLabelTest")
         .set(DriverConfiguration.ON_DRIVER_STARTED, REEFYarnNodeLabelTestDriver.StartHandler.class)
         .set(DriverConfiguration.ON_EVALUATOR_ALLOCATED, REEFYarnNodeLabelTestDriver.EvaluatorAllocatedHandler.class)
         .build();
@@ -79,11 +79,7 @@ public class REEFYarnNodeLabelTest {
    */
   public static void main(final String[] args) throws BindException, InjectionException {
     final Configuration runtimeConf = getRuntimeConfiguration();
-
-    if (args.length != 1) {
-      System.out.println("usage: java REEFYarnNodeLabelTestDriver <node_label_expression>");
-    }
-    final Configuration driverConf = getDriverConfiguration(args[0]);
+    final Configuration driverConf = getDriverConfiguration();
 
     final LauncherStatus status = DriverLauncher
         .getLauncher(runtimeConf)

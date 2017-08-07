@@ -25,6 +25,7 @@ import org.apache.hadoop.yarn.exceptions.YarnException;
 import org.apache.reef.driver.evaluator.AllocatedEvaluator;
 import org.apache.reef.driver.evaluator.EvaluatorRequest;
 import org.apache.reef.driver.evaluator.EvaluatorRequestor;
+import org.apache.reef.driver.task.TaskConfiguration;
 import org.apache.reef.tang.Configuration;
 import org.apache.reef.tang.annotations.Unit;
 import org.apache.reef.wake.EventHandler;
@@ -122,7 +123,10 @@ public class REEFYarnNodeLabelTestDriver {
       LOG.log(Level.INFO, "Submitting Dummy REEF task to AllocatedEvaluator: {0}", allocatedEvaluator);
 
       // TODO: build TaskConfiguration
-      final Configuration taskConfiguration = null;
+      final Configuration taskConfiguration = TaskConfiguration.CONF
+          .set(TaskConfiguration.TASK, DummyTask.class)
+          .set(TaskConfiguration.IDENTIFIER, "DummyTask")
+          .build();;
 
       allocatedEvaluator.submitTask(taskConfiguration);
 
