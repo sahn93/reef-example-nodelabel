@@ -49,8 +49,6 @@ public class REEFYarnNodeLabelTestDriver {
   private final EvaluatorRequestor evaluatorRequestor;
 
   private final String NODE_LABEL_EXPRESSION = "mylabel";
-  private final int LABELED_REQUEST_NUM = 3;
-  private final int DEFAULT_REQUEST_NUM = 5;
   private int labeled_container_count;
   private int default_container_count;
 
@@ -150,13 +148,11 @@ public class REEFYarnNodeLabelTestDriver {
     public void onNext(StopTime stopTime) {
       LOG.log(Level.INFO, "# of total default containers: {0}",
           REEFYarnNodeLabelTestDriver.this.default_container_count);
-      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.default_container_count,
-          REEFYarnNodeLabelTestDriver.this.DEFAULT_REQUEST_NUM);
+      Assert.assertEquals(1, REEFYarnNodeLabelTestDriver.this.default_container_count);
 
       LOG.log(Level.INFO, "# of total labeled containers: {0}",
           REEFYarnNodeLabelTestDriver.this.labeled_container_count);
-      Assert.assertEquals(REEFYarnNodeLabelTestDriver.this.labeled_container_count,
-          REEFYarnNodeLabelTestDriver.this.LABELED_REQUEST_NUM);
+      Assert.assertEquals(1, REEFYarnNodeLabelTestDriver.this.labeled_container_count);
 
     }
   }
