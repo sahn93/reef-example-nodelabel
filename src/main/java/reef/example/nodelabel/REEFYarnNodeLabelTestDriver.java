@@ -73,28 +73,21 @@ public class REEFYarnNodeLabelTestDriver {
   public final class StartHandler implements EventHandler<StartTime> {
     @Override
     public void onNext(final StartTime startTime) {
+      REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(EvaluatorRequest.newBuilder()
+          .setNumber(1)
+          .setMemory(64)
+          .setNumberOfCores(1)
+          .setNodeLabelExpression(REEFYarnNodeLabelTestDriver.this.NODE_LABEL_EXPRESSION)
+          .build());
+      LOG.log(Level.INFO, "Requested an evaluator with node label: " +
+          REEFYarnNodeLabelTestDriver.this.NODE_LABEL_EXPRESSION);
 
-      for (int i = 1; i <= LABELED_REQUEST_NUM; i++) {
-        REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(EvaluatorRequest.newBuilder()
-            .setNumber(1)
-            .setMemory(64)
-            .setNumberOfCores(1)
-            .setNodeLabelExpression(REEFYarnNodeLabelTestDriver.this.NODE_LABEL_EXPRESSION)
-            .build());
-        LOG.log(Level.INFO, "Requested " + i + " evaluators with node label: " +
-            REEFYarnNodeLabelTestDriver.this.NODE_LABEL_EXPRESSION);
-      }
-
-      for (int i = 1; i <= DEFAULT_REQUEST_NUM; i++) {
-        REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(EvaluatorRequest.newBuilder()
-            .setNumber(1)
-            .setMemory(64)
-            .setNumberOfCores(1)
-            .build());
-        LOG.log(Level.INFO, "Requested " + i + " evaluators without node label");
-      }
-
-
+      REEFYarnNodeLabelTestDriver.this.evaluatorRequestor.submit(EvaluatorRequest.newBuilder()
+          .setNumber(1)
+          .setMemory(64)
+          .setNumberOfCores(1)
+          .build());
+      LOG.log(Level.INFO, "Requested an evaluator without node label");
     }
   }
 
